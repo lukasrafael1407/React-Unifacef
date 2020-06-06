@@ -10,6 +10,7 @@ import { Router } from 'react-router-dom';
 import { syncHistoryWithStore } from 'mobx-react-router';
 import './index.css';
 import 'semantic-ui-css/semantic.min.css';
+import './plugins/sentry.plugins';
 
 const rootElement = document.getElementById('root');
 const browserHistory = createBrowserHistory();
