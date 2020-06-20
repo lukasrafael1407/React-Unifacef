@@ -30,4 +30,4 @@ ReactDOM.render(
   </React.StrictMode>,
   rootElement
 );
-serviceWorker.register();
+serviceWorker.unregister();
