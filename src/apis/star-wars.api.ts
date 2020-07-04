@@ -1,7 +1,7 @@
 import axios from 'axios';
+import { configs } from './../configs';
 
-//const baseURL = 'https://star-wars-api-unifacef.herokuapp.com';
-const baseURL = process.env.REACT_APP_STAR_WARS_BASE_URL
+const baseURL = configs.apis.starWars
 
 export const getFilms =() =>{
   return axios.request({ baseURL, url: 'films' })

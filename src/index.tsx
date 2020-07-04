@@ -11,6 +11,7 @@ import { syncHistoryWithStore } from 'mobx-react-router';
 import './index.css';
 import 'semantic-ui-css/semantic.min.css';
 import './plugins/sentry.plugins';
+import './plugins/one-signal.plugin';
 import Loading from './components/loading';
 import './apis/axios.apis.ts';
 
